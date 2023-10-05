@@ -9,3 +9,16 @@
 .navbar{
    background-color: #FADA99; 
 }
+
+.fondo {background-color: #FFCB8E;}
+
+
+.instrucciones{
+    text-align: justify;
+}
+
+.imagen{
+    max-width: 80%;
+    max-height: auto;
+    object-fit: cover;
+}
