@@ -1,22 +1,45 @@
 <!doctype html>
 <html lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Edición de inventario</title>
-    </head>
+  <link rel="stylesheet" href="styles.css">
 
-    <body>
-    
+  <title>Edición de receta</title>
+  </head>
+
+  <body>
+    <header>
+
+        <!--BARRA DE NAVEGACIÓN-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">SALADERA</a>
+                <div id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Inventario</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!--FIN DE BARRA DE NAVEGACIÓN-->
+
+    </header>
+  
     <div class="container-fluid">
       <h1>Editar receta</h1>
 
-      <div class="container">
+      <div class="container fondo-formulario">
 
         <form>
 
@@ -42,7 +65,7 @@ Picatostes al gusto
 1 yema de huevo
 1 diente de ajo"></textarea>
           </div>
-          
+        
           <div class="form-group">
             <label for="formularioPrecio">Precio</label>
             <input class="form-control" id="edicionPrecio" aria-describedby="Recuadro para ingresar el nuevo precio de la receta" placeholder="$55">
@@ -51,13 +74,9 @@ Picatostes al gusto
           <div class="d-flex justify-content-center mt-4">
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
-          
-
+        
         </form>
-      
-      </body>
       </div>
     </div>
-
-    
+  </body>
 </html>
