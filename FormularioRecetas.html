@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Edición de inventario</title>
+    </head>
+
+    <body>
+    
+    <div class="container-fluid">
+      <h1>Editar receta</h1>
+
+      <div class="container">
+
+        <form>
+
+          <div class="form-group">
+            <label for="formularioNombre">Nombre</label>
+            <input class="form-control" id="edicionNombre" aria-describedby="Recuadro para ingresar el nuevo nobre de la receta" placeholder="Ensalada Griega">
+          </div>
+
+          <div class="mb-3">
+            <label for="formularioInstrucciones" class="form-label">Instrucciones</label>
+            <textarea class="form-control" id="edicionInstrucciones" aria-describedby="Recuadro para ingresar las nuevas instrucciones para preparar la receta" rows="3" placeholder="Elaboración: Cortar el pepino, el pimiento y el tomate en dados no muy pequeños y la cebolla en tiras medianas. Mezlcamos todo bien en un bol, con un poco de sal y un chorro abundante de aceite de oliva. Después añadimos las olivas y rematamos con el queso feta cortado en dados. Espolvoreamos un poco de orégano y exprimimos un poco de limón si queremos."></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="formularioIngredientes" class="form-label">Ingredientes</label>
+            <textarea class="form-control" id="edicionIngredientes" rows="3" placeholder="8 hojas de lechuga romana
+Queso parmesano al gusto
+1 cucharada sopera de vinagre de manzana
+1 cucharada sopera de salsa Perrins
+60ml de aceite
+1 cucharada sopera de zumo de limón
+Picatostes al gusto
+1 yema de huevo
+1 diente de ajo"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="formularioPrecio">Precio</label>
+            <input class="form-control" id="edicionPrecio" aria-describedby="Recuadro para ingresar el nuevo precio de la receta" placeholder="$55">
+          </div>
+
+          <div class="d-flex justify-content-center mt-4">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          
+
+        </form>
+      
+      </body>
+      </div>
+    </div>
+
+    
+</html>
